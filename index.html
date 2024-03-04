@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/style.css" rel="stylesheet">
+        <title>Contact me</title>
+    </head>
+    <body>
+        <div class="formu">
+            <main>
+                <h1 id="title">Contact me</h1>
+                <p id="description">Thanks for checking out my Github, if you
+                    want more information about the projects I do, feel free to
+                    leave your contact information so we can work together on
+                    your project and ideas.</p>
+                <form id="survey-form" method="post"
+                    action="https://register-demo.freecodecamp.org">
+                    <fieldset>
+                        <label id="name-label" for="first-name">Name and last
+                            name: <input class="data"
+                                id="name" name="first-name" type="text"
+                                placeholder="Name and last name"
+                                required /></label>
+                        <label id="email-label" for="email">Your Email: <input
+                                class="data"
+                                id="email"
+                                name="email" type="email"
+                                placeholder="Your email"
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                required /></label>
+                        <label id="number-label" for="number">Your phone number:
+                            <input class="data"
+                                id="number" name="number" type="number"
+                                min="18"
+                                max="99" placeholder="Number"
+                                pattern="[0-9]"
+                                required /></label>
+                    </fieldset>
+                </form>
+            </form>
+        </main>
+    </div>
+</body>
