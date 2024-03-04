@@ -37,6 +37,51 @@
                                 pattern="[0-9]"
                                 required /></label>
                     </fieldset>
+                    <fieldset>
+                        <label for="dropdown">What kind of service do you need?
+                            <select id="dropdown" name="dropdown">
+                                <option value>(select one)</option>
+                                <option value="1">Project Manager</option>
+                                <option value="2">Web developer</option>
+                                <option value="3">Other</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <fieldset> Your project is:
+                        <label for="type-project"><input
+                                name="type-project"
+                                value="personal"
+                                type="radio"
+                                required />Personal</label>
+                        <label for="type-project"><input
+                                name="type-project"
+                                value="business"
+                                type="radio"
+                                required />Business</label>
+                    </fieldset>
+                    <fieldset> When you need your project?:
+                        <label for="type-project"><input
+                                value="high"
+                                type="checkbox"
+                                required /> 0-3 months </label>
+                        <label for="type-project"><input
+                                value="medium"
+                                type="checkbox"
+                                required />3-6 months</label>
+                        <label for="type-project"><input
+                                value="low"
+                                type="checkbox"
+                                required />+6 months</label>
+                    </fieldset>
+                    <fieldset>
+                        <label for="summary">Please provide a summary of the
+                            project
+                            you want, even if it is just a few details.:
+                            <textarea id="summary" name="summary" rows="4"
+                                cols="40"
+                                placeholder="My dream project is"></textarea>
+                        </label>
+                    </fieldset>
                 </form>
             </form>
         </main>
